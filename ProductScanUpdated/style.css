@@ -1,0 +1,144 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.body{
+  position: relative;
+  top:0px;
+  background-color: #196F3D;
+  align-items: center;
+}
+
+.main{
+  position: relative;
+  background-color: #BFC9CA;
+  width:90%;
+  padding: 1% 2%;
+  top: 0px;
+  display: flex;
+  align-items: row;
+  margin: auto;
+  border: double #EB984E;
+}
+
+.heading{
+  position: relative;
+  top: 0px;
+  padding: 2% 0%;
+  background-color: #212F3C;
+  margin: auto;
+  width: 100%;
+  text-align:center;
+  color: #EB984E;
+}
+.heading2{
+  position: relative;
+  top: 0px;
+  padding: 0% 0%;
+  background-color: #000;
+  margin: auto;
+  width: 100%;
+  text-align:left;
+  color: #EB984E;
+}
+
+
+.formBody{
+  overflow: hidden;
+  height: 100% !important;
+  color: #000;
+
+  background-color: #BFC9CA;
+  margin:5%;
+  font-family:'Courier New'
+}
+
+.generalButton{
+  background-color: #white;
+  border-radius: 15%;
+  color: black;
+  padding: 2% 3%;
+  border: single;
+  border-color: white;
+}
+
+.sidebar {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 5%; 
+  transition: 0.5s; 
+}
+
+.sidebar a {
+  padding: 2% 2% 2% 5%;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 36px;
+  margin-left: 5%;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 1% 2%;
+  border: none;
+}
+
+.openadj {
+  width:100%;
+  background-color: #111;
+  padding: 1% 2%;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+table{
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  column-width: 100%
+}
+td{
+  width:200px;
+}
+.mainRecord{
+  position: relative;
+  background-color: #BFC9CA;
+  width:90%;
+  padding: 1% 2%;
+  top: 0px;
+  max-width: fit-content;
+  margin-inline: auto;
+  border: double #EB984E;
+}
+
+
